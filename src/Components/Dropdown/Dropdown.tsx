@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import styles from "./Dropdown.module.css";
 import Modal from "../Modal/Modal";
-import { APIContext } from "../../ApiRequest";
+import { APIContext } from "../../APIrequest";
 import { UserContext } from "../../UserStore";
 
 interface DropdownProps {
