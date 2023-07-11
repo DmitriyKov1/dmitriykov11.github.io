@@ -9,7 +9,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import "./index.css";
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <BrowserRouter>
       <UserStore>
